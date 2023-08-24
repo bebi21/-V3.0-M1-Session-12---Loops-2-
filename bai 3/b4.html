@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   Tính tổng 20 số đầu tiên trong dãy Fibonacci
+      let a = 0;
+      let b = 1;
+      let count = 0;
+      let next;
+      while (20 > count) {
+        next = a + b;
+        a = b;
+        b = next;
+        count++;
+        total = +next;
+      }
+      console.log(total);
+    </script>
+  </body>
+</html>
